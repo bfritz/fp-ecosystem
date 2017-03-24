@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+To the Scala community:
 
-You can use the [editor on GitHub](https://github.com/ChristopherDavenport/fp-ecosystem/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hallway debate at last year's inaugural Typelevel Summit focused on the problem of supporting existing users while introducing library support for Cats. There were no obvious answers. Over the past year we have experimented with shims, preprocessors, and manually maintained forks. Although we have had some success, we have concluded that none of these strategies are sustainable. Each introduces impediments to contributors, complexity to end users, or both.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Fortunately, the maturing of Cats in the past year and the vibrancy and quality of its rapidly growing ecosystem indicate a clear way forward. The maintainers of the following projects intend to standardize on Cats as a direct dependency and phase out alternate builds.
 
-### Markdown
+* [doobie](https://github.com/tpolecat/doobie)
+* [http4s](https://github.com/http4s/http4s)
+* [Matryoshka](https://github.com/slamdata/matryoshka)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChristopherDavenport/fp-ecosystem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Each project will act on its own schedule with the goal of clean interoperability with Cats and one another by mid-to-late 2017. We invite other projects to follow our lead.
