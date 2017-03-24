@@ -1,6 +1,6 @@
 To the Scala community:
 
-Hallway debate at last year's inaugural Typelevel Summit focused on the problem of supporting existing users while introducing library support for Cats. There were no obvious answers. Over the past year we have experimented with shims, preprocessors, and manually maintained forks. Although we have had some success, we have concluded that none of these strategies are sustainable. Each introduces impediments to contributors, complexity to end users, or both.
+Hallway debate at last year's inaugural Typelevel Summit focused on the problem of supporting existing users while introducing library support for Cats. There were no obvious answers. Over the past year we have experimented with shims, preprocessors, and manually maintained forks. Although we had some success, we concluded that none of these strategies are sustainable. Each introduces impediments to contributors, complexity to end users, or both.
 
 Fortunately, the maturing of Cats in the past year and the vibrancy and quality of its rapidly growing ecosystem indicate a clear way forward. The maintainers of the following projects intend to standardize on Cats as a direct dependency and phase out alternate builds.
 
